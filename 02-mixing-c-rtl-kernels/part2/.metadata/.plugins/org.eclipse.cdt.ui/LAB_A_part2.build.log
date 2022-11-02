@@ -1,0 +1,17 @@
+11:00:38 **** Incremental Build of configuration Emulation-HW for project LAB_A_part2 ****
+make -j16 all 
+/opt/Xilinx/Vitis/2022.1/bin/emconfigutil --od . --nd 1  --platform xilinx_u50_gen3x16_xdma_5_202210_1
+g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_5_202210_1 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/Xilinx/Vitis_HLS/2022.1/include/ -O0 -g -Wall -c -fmessage-length=0 -o "src/host_step2.o" "../src/host_step2.cpp"
+g++ -o "LAB_A_part2" src/host_step2.o -lxilinxopencl -lpthread -lrt -lstdc++ -L/opt/xilinx/xrt/lib/ -Wl,-rpath-link,/opt/xilinx/xrt/lib
+
+****** configutil v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [ConfigUtil 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm
+INFO: [ConfigUtil 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/hw/hw.xsa'
+INFO: [ConfigUtil 60-1032] Extracting hardware platform to .
+emulation configuration file `emconfig.json` is created in . directory 
+
+11:00:41 Build Finished (took 2s.588ms)
+

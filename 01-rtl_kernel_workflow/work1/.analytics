@@ -1,0 +1,16 @@
+timestamp=[2022-11-01 22:59:45], mode=WORKBENCH_START, duration=0:00:05.456, duration_ms=5456, data={}
+timestamp=[2022-11-01 22:59:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.199, duration_ms=199, data={}
+timestamp=[2022-11-01 22:59:47], mode=WORKBENCH_UI_INIT, duration=0:00:01.426, duration_ms=1426, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2022-11-01 23:00:32], mode=APP_CREATION, duration=0:00:01.608, duration_ms=1608, data={name=kernelTest, project_type=datacenter, os=NA, processor=null, runtime=OpenCL, platform=xilinx_u50_gen3x16_xdma_5_202210_1, application_type=application}
+timestamp=[2022-11-01 23:09:24], mode=BUILD, duration=0:00:02.614, duration_ms=2614, data={name=kernelTest, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:09:25], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=kernelTest_kernels, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:12:56], mode=BUILD, duration=0:03:31.122, duration_ms=211122, data={name=kernelTest_system_hw_link, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:13:14], mode=BUILD, duration=0:00:17.091, duration_ms=17091, data={name=kernelTest_system, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:22:53], mode=BUILD, duration=0:00:00.507, duration_ms=507, data={name=kernelTest, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:22:55], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=kernelTest_kernels, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:22:58], mode=BUILD, duration=0:00:00.711, duration_ms=711, data={name=kernelTest_system_hw_link, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:23:14], mode=BUILD, duration=0:00:16.871, duration_ms=16871, data={name=kernelTest_system, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:24:34], mode=BUILD, duration=0:00:00.513, duration_ms=513, data={name=kernelTest, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:24:37], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=kernelTest_kernels, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:24:39], mode=BUILD, duration=0:00:00.668, duration_ms=668, data={name=kernelTest_system_hw_link, configuration=Emulation-HW, clean_build=false}
+timestamp=[2022-11-01 23:24:56], mode=BUILD, duration=0:00:16.766, duration_ms=16766, data={name=kernelTest_system, configuration=Emulation-HW, clean_build=false}

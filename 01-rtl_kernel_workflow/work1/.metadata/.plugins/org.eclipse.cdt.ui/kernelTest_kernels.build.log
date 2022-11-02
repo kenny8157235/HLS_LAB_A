@@ -1,0 +1,6 @@
+23:24:36 **** Incremental Build of configuration Emulation-HW for project kernelTest_kernels ****
+make -j16 all 
+make: Nothing to be done for 'all'.
+
+23:24:37 Build Finished (took 118ms)
+
